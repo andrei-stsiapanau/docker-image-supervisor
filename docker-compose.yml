@@ -4,4 +4,4 @@ services:
       args:
         TZ: ${TZ:-UTC}
       context: .
-    image: andrei-stepanov/supervisor-php:latest
+    image: andrei-stepanov/supervisor-php:php8.3
