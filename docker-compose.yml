@@ -1,0 +1,7 @@
+services:
+  supervisor:
+    build:
+      args:
+        TZ: ${TZ:-UTC}
+      context: .
+    image: andrei-stepanov/supervisor-php:latest
